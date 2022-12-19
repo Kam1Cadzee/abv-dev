@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "ES2022"
+    ],
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "babytube-dev",
+    "private_key_id": "2b9623b6b19dc42955a6ef58c9e13f83ec9b41de",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDnE1uUnNfQsLDh\njTkZ4r9zHkXoLlGKriEhDCKHeqjE+1HLmI6esPksnpt8QrUwc8zQqoUe0IECCBbe\nmYzAvDGtJf6eW8A7VL3u0ZmTfu3+oMNn2DmaA3cKaA1jMjd1r67mj1NK2PdeiZWb\n6Od93XudxODbyBgeVNgh/bMFPbuwegGsMyTsU0dL5sOVjVQYz+rhSlMqjKVh3uQk\n7HpKG40k3BHZ2MchbNE5c74DDW0qtHgs4XR3W9GI00WwqyaXCRr0o1tKy6Hv542x\nY5NaIS0XvFrt64vt3+uZYxThvXilN4L+dLpPh0WJ4WdobmDgsUm6ncC/hmdFcHaO\nlfuDxS+3AgMBAAECggEAJTXbTgOxxzPkz/V3aAE5FjceR8TJsbzXreQv3UQ10D6u\nTcxbzxctkO9bl3eAiPRk24dSF4O4+pRF5oOwhErp7vmK1oJs4sEDMuWCxxsuBQ5r\nWRobMH91WHIoEbzA7I0la5BR9+AXeZxLQMeRG5YidWYCVbITnDLKeTLK9MGbq0+z\n8bL7sRwyCO9cFAFHl2+tF0jLxux+HBHe2Ltz+/Y9lu7lAwaku/Lktn92A9g+1RvE\nfdCkOOMJzsKOlylL6L+eoGpGybVyFzQU/zYvvhdyPBWVkunn2Qt4Og/JdSrOQdJB\n6bZXEFqgrYAWpkPuHnsmLnR/55/2Inm8Grrx6sXYVQKBgQD+tLRN1PfB3j7xAV8A\nhzPzwaR/al+KWYuBszN46r1kzAOgrP3CX3tXa9nPc10SlfZl8lHdbwhzgtFfiTES\nOfxG8S0slHzkL8Ej0COBtJ2IsHkGmIkTUOwIcx80qbi4G0HRrdzPDd/sR44KInDf\nTfsbL7GkoNwNCPH5nrl+HzMx4wKBgQDoP+rlsSCrWf9d9wJF0l6wylZe5c4QgNlP\nuij1vkHS4llDGa0kQOc2BMIgQdc40X4aJZM3LcwExf7bvhTW+qldKeyNrhc+yLJT\nPZsPM7Gy8eXvTTwT2WgMl6fjcje7E/KFeGr5u7+a8eTYHb7Q2SkfEF6oDrUUf3jJ\nHjdE9wejHQKBgQDYEB5rb9+EG6207/7RCeAuRPPwCiJl0DQhoAxn5GkpGk9xe43/\n1tNgg2LPMgOgAop0TKzZdJjss+o8arqvxXSWEXzKtmODhmcGpEeafcas71abG8Yc\nFqdDO7UbDWZe9vBMmHoZQqHTY5fATRsGsrXyh/DfwH0qqY3qvJSJwpnBFQKBgAZS\ndxp5j+IaORFdv/oWl+1IFMHQj6NzXncFIkhOPYx4DOX+tO/ftGuMBZzLLgil60Da\n9P7ziDI5EY75xad0e1fF5GKW8psK64/IhYgMaDHu08uH1rLToDl3h2JxoYK+MEPh\n20ehDL4zB3+6j48v2ia2U11PyS4dqjQPVoHSF6shAoGBAIjjCNCWUdtD+29/NBST\nZgSAFEWvNpVuf7DKCZc1YTA4+SbTi7H3lkUa3nwLUC3EWq/uFJEwr8ax5yFyCqfF\nSkt/t+z03az7HK1qhT9W1A7Qq/w9ER97sr24Gt8FtLIcoqxSJdpancKXNFy0I9Z7\nAPA7e48rCLmX6aolU+n9s4dM\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-l6rjp@babytube-dev.iam.gserviceaccount.com",
+    "client_id": "112438025184987815064",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-l6rjp%40babytube-dev.iam.gserviceaccount.com"
+}
