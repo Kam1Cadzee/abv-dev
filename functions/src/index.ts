@@ -45,7 +45,7 @@ iap.config({
   async function updateSubscription({
     app, origTxId, userId, validationResponse, latestReceipt, productId, 
   }: {
-    app: string, origTxId: string, userId: string, validationResponse: string, latestReceipt: string, productId: string, 
+    app: string, origTxId: string, userId: string, validationResponse: any, latestReceipt: string, productId: string, 
   }) {
     const data = {
       app,
@@ -62,6 +62,9 @@ iap.config({
         const userReference = firestore.getFirestore().collection('Users').doc(data.user_id);
   
         if((await purchaseReference.get()).exists) {
+          await transaction.update(userReference, {
+            isLettersPurchase: true
+          });
           return;
         }
         await transaction.set(purchaseReference, data);
@@ -84,7 +87,7 @@ iap.config({
     subscription: boolean,
   }) {
     await iap.setup();
-    const validationResponse = await iap.validate(receipt);
+    const validationResponse: any = await iap.validate(receipt);
     
     if(validationResponse === undefined) {
         throw new functions.https.HttpsError('unavailable', 'validationResponse === undefined');  
@@ -95,7 +98,12 @@ iap.config({
     }
   
     const purchaseData = iap.getPurchaseData(validationResponse);
-    const firstPurchaseItem = purchaseData[0];
+    if(!purchaseData) {
+      throw new functions.https.HttpsError('unavailable', 'no purchaseData'); 
+    }
+    console.log('purchaseData', purchaseData);
+    
+    const firstPurchaseItem: any = purchaseData[0];
   
     const isCancelled = iap.isCanceled(firstPurchaseItem);
     const isExpired = iap.isExpired(firstPurchaseItem);
@@ -114,7 +122,7 @@ iap.config({
       userId,
       app,
       productId,
-      origTxId,
+      origTxId: origTxId!,
       latestReceipt,
       validationResponse,
     });
